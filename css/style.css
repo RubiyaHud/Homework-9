@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ------- My css ----- */
+.main_container {
+    width: 100%;
+    /* padding: 100px 0; */
+    height: 1025px;
+
+    background-image: url(../images/background_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_menu_container {
+    /* background-color: pink; */
+    width: 1171px;
+    margin: 0 auto;
+
+}
+
+.triangle_waxom_logo {
+    width: 186px;
+    float: left;
+    padding-top: 37px;
+}
+
+.triangle_logo {
+    float: left;
+
+}
+
+.waxom_logo {
+
+    float: left;
+    padding-top: 20px;
+
+}
+
+.menu {
+    width: 985px;
+    float: left;
+    text-align: right;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    line-height: 121px;
+    color: white;
+    padding: 0 13px;
+
+}
+
+.body_content {
+    height: 266px;
+    width: 615px;
+    /* background-color: rgb(194, 42, 68); */
+    margin: 0 auto;
+    margin-top: 242px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    /* background-color: #998675; */
+    background-image: url(../images/button_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 186px;
+
+
+    margin: 0 auto;
+    margin-top: 54px;
+
+    padding: 17px 0;
+    text-align: center;
+
+    border-radius: 10px;
+
+}
+
+.button a {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 11pt;
+
+}
+
+/* ========== footer ============= */
+.footer {
+    width: 1171px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.web_app_design {
+    width: 280px;
+    float: left;
+    text-align: center;
+
+}
+
+.development {
+    width: 280px;
+    float: left;
+    text-align: center;
+
+}
+
+.customization {
+    width: 280px;
+    float: left;
+    text-align: center;
+
+}
+
+.marketing {
+
+    width: 280px;
+    float: left;
+    text-align: center;
+
+}
+
+.space {
+    margin-right: 17px;
+}
